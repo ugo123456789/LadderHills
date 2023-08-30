@@ -1,27 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+h1{
+    min-height: 44px;
+    min-width: 44px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #121e38;
+    font-size: 5rem;
+    line-height: 115%;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+h2{
+    min-height: 44px;
+    min-width: 44px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #121e38;
+    font-size: 3.125rem;
+    line-height: 4.375rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+}
+
+/* Responsive styles for tablets (768px) */
+@media (max-width: 768px) {
+    .mdd {
+      text-align: center; /* Center-align text for tablet screens */
+    }
+    
+    .md:text-end {
+      text-align: center; /* Center-align text for tablet screens */
+    }
+    
+    /* Adjust the padding and margins for better spacing on tablets */
+    .pt-10 {
+      padding-top: 2rem;
+    }
+    
+    .md:pt-16 {
+      padding-top: 3rem;
+    }
+    
+    .pb-16 {
+      padding-bottom: 2rem;
+    }
+    
+    .md:pb-24 {
+      padding-bottom: 3rem;
+    }
+    
+    .mt-6 {
+      margin-top: 1.5rem;
+    }
+    
+    .md:mt-0 {
+      margin-top: 0;
+    }
+    
+    /* Reduce the width of the form for better fit on tablets */
+     .md:max-w- {
+      max-width: 90%; /* Adjust as needed */
+    }
+    
+    /* Adjust the button styles for tablets */
+    .text-lg {
+      font-size: 1.125rem; /* Adjust font size for tablets */
+    }
+    
+    .md:text-xl {
+      font-size: 1.25rem; /* Adjust font size for tablets */
+    }
+    
+    .tracking- {
+      letter-spacing: 0.5px; /* Adjust letter-spacing for tablets */
+    }
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  
