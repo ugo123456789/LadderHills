@@ -46,7 +46,7 @@ const contact = () => {
 							<motion.h1
 								variants={singleWord}
 								className="text-2xl md:text-7xl md:max-lg:text-4xl md:max-lg:mr-40 font-light">
-								let's stay in touch
+								let&rsquo;s stay in touch
 							</motion.h1>
 						</motion.div>
 						<div className="pt-10 md:pt-16 flex pb-16 md:pb-24 justify-center text-center">
@@ -72,6 +72,7 @@ const contact = () => {
 								<Image
 									className="absolute w-full h-full object-cover "
 									src={handshake}
+                  alt="Contact Image"
 								/>
 							</div>
 							<div className="w-full md:w-1/2 md:max-lg:w-[100%]">

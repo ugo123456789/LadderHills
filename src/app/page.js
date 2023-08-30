@@ -52,7 +52,7 @@ export default function Home() {
 						<motion.h1
 							variants={singleWord}
 							className="capitalize text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-2 md:mb-4 lg:mb-5 md:max-lg:mb-10">
-							We'll be launching soon!
+							We&rsquo;ll be launching soon!
 						</motion.h1>
 						<motion.p className="capitalize font-display text-md md:text-xl lg:text-2xl font-light text-white mb-6 md:mb-8 pt-20 sm:pt-0">
 							{text.split(" ").map((word, index) => (
