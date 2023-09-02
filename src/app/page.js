@@ -30,7 +30,7 @@ export default function Home() {
 	};
 
 	const text =
-		"We connect talented people with great companies. Join our network today";
+		"We connect talented people with Health Organisations. Join our network today";
 	return (
 		<main
 			className="w-full min-h-screen px-4 overflow-hidden brightness-[.90]"
@@ -51,10 +51,10 @@ export default function Home() {
 						className="textdiv flex w-full max-w-[85%] md:max-w-[70%] lg:max-w-[60%] flex-col items-start flex-initial md:max-lg:mb-40">
 						<motion.h1
 							variants={singleWord}
-							className="capitalize text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-2 md:mb-4 lg:mb-5 md:max-lg:mb-10">
+							className="capitalize text-2xl md:text-4xl lg:text-6xl font-bold text-white mb-5 md:mb-4 lg:mb-5 md:max-lg:mb-10">
 							We&rsquo;ll be launching soon!
 						</motion.h1>
-						<motion.p className="capitalize font-display text-md md:text-xl lg:text-2xl font-light text-white mb-6 md:mb-8 pt-20 sm:pt-0">
+						<motion.p className="capitalize font-display text-md md:text-xl lg:text-xl font-light text-white lg:mt-8 mb-6 md:mb-8 pt-20 sm:pt-0">
 							{text.split(" ").map((word, index) => (
 								<motion.span
 									key={word + " - " + index}
